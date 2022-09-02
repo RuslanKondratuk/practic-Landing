@@ -4,24 +4,26 @@ body {
     color: #926239;
     line-height: 1.6;
     margin: 0;
+    overflow-x: hidden;
 }
 
 * {
     box-sizing: border-box;
 
 }
-
+/* First page intro */
 .intro {
     background-image: url(./img/intro.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
+
 }
 .position-header {
     text-align: center;
+    margin: 0;
     padding-top: 280px;
 
 }
@@ -46,5 +48,51 @@ body {
     border: 1px solid #926239;
     padding: 10px 20px;
     border-radius: 10px;
+}
 
+/* Second page with blocks */
+/* First and second blocks */
+.main-block {
+    background-color: #926239;
+    padding: 20px;
+}
+
+
+.text-block {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.color-block {
+    background-color: #f4f4f4;
+}
+
+
+.color-text {
+    color: #926239;
+}
+
+/* Other blocks */
+
+.footer-block{
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    width: 33.07%;
+    background-color: #926239;
+}
+
+.text-third-block {
+    margin: 0;
+    color: #fff;
+}
+
+.color-footer-block {
+    background-color: #ffffff;
+}
+
+.text-fouth-block {
+    margin: 0;
+    color: #926239;
 }
