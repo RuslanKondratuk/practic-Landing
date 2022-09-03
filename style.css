@@ -50,6 +50,11 @@ body {
     border-radius: 10px;
 }
 
+.button:hover {
+    color: #fff;
+    background-color: #926239;
+}
+
 /* Second page with blocks */
 /* First and second blocks */
 .main-block {
